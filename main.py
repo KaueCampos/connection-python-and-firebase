@@ -1,4 +1,7 @@
+import pyrebase
+
 class Firebase:
+
     """ Firebase Interface """
     def __init__(self, config):
         self.api_key = config["apiKey"]
